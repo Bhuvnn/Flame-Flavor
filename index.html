@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Kitchen Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Macondo+Swash+Caps&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="restaurant-title">
+                <span class="text-gradient">Flame & Flavor</span>
+                <span class="tagline">Fresh Flavors, Delivered Fast – Your Cravings, Our Cloud!</span>
+            </h1>
+
+            <p class="hero-text">
+                Crafting fire-kissed gourmet meals delivered in 30 minutes 🚀<br>
+                <span class="highlight">100% organic</span> ingredients • <span class="highlight">Chef-designed</span>
+                menus<br>
+                Daily specials • Midnight cravings menu • Diet-specific options
+            </p>
+
+            <button class="cta-button">
+                Order Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Flavors of India</h2>
+        <div class="menu-categories">
+            <!-- ... same category buttons ... -->
+        </div>
+        <div class="menu-items">
+            <!-- Starters (8 items total) -->
+            <div class="menu-item" data-category="starters">
+                <span class="veg-indicator">🟢 Veg</span>
+                <img src="images/samosa.jpg" alt="Samosa">
+                <h3>Samosa</h3>
+                <p>Spiced potato filling in crispy pastry shell, served with tamarind chutney</p>
+                <div class="price">₹20</div>
+            </div>
+
+            <div class="menu-item" data-category="starters">
+                <span class="veg-indicator">🟢 Veg</span>
+                <img src="images/kadhai-paneer.jpg" alt="Dahi Puri">
+                <h3>Shahi Paneer</h3>
+                <p>Spiced Tomato gravy with Fried Paneer in it</p>
+                <div class="price">₹150</div>
+            </div>
+
+            <!-- Main Course (12 items total) -->
+            <div class="menu-item" data-category="main-course">
+                <span class="veg-indicator">🟢 Veg</span>
+                <img src="images/chole-bhature.jpg" alt="Chole Bhature">
+                <h3>Chole Bhature</h3>
+                <p>Spiced chickpea curry with fluffy fried bread</p>
+                <div class="price">₹90</div>
+            </div>
+
+            <div class="menu-item" data-category="main-course">
+                <span class="veg-indicator">🟢 Veg</span>
+                <img src="images/malai-kofta.jpg" alt="Malai Kofta">
+                <h3>Malai Kofta</h3>
+                <p>Vegetable dumplings in creamy tomato-cashew sauce</p>
+                <div class="price">₹150</div>
+            </div>
+
+            <div class="menu-item" data-category="main-course">
+                <span class="veg-indicator">🟢 Veg</span>
+                <img src="images/rajma.jpg" alt="Rajma Masala">
+                <h3>Rajma Masala</h3>
+                <p>Red kidney beans curry cooked in aromatic spices</p>
+                <div class="price">₹100</div>
+            </div>
+
+            <!-- Add 3 more main courses -->
+
+            <!-- Desserts (8 items total) -->
+            <div class="menu-item" data-category="desserts">
+                <span class="veg-indicator">🟢 Veg</span>
+                <img src="images/gajar-halwa.jpg" alt="Gajar Halwa">
+                <h3>Gajar Halwa</h3>
+                <p>Carrot pudding cooked in milk and dry fruits</p>
+                <div class="price">₹70</div>
+            </div>
+
+            <div class="menu-item" data-category="desserts">
+                <span class="veg-indicator">🟢 Veg</span>
+                <img src="images/jalebi.jpg" alt="Jalebi">
+                <h3>Jalebi</h3>
+                <p>Crispy spiral sweets soaked in saffron syrup</p>
+                <div class="price">₹50</div>
+            </div>
+
+            <!-- Add 2 more desserts -->
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="features">
+        <div class="section-header">
+            <h2>Why Choose Us</h2>
+            <p class="section-subtitle">The Flame & Flavor Promise</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="icons/fast-delivery.svg" alt="Fast Delivery">
+                </div>
+                <h3>Lightning Delivery</h3>
+                <p class="feature-text">Fresh meals at your door in<br><span class="highlight">30-45 minutes</span></p>
+                <div class="feature-decoration">
+                    <div class="spice-dots"></div>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="icons/farm.svg" alt="Farm Fresh">
+                </div>
+                <h3>Farm to Fork</h3>
+                <p class="feature-text">Daily sourced ingredients from<br><span class="highlight">local organic
+                        farms</span></p>
+                <div class="feature-decoration">
+                    <div class="spice-dots"></div>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="icons/chef.svg" alt="Chef Hat">
+                </div>
+                <h3>Master Chefs</h3>
+                <p class="feature-text">Authentic recipes crafted by<br><span class="highlight">award-winning
+                        chefs</span></p>
+                <div class="feature-decoration">
+                    <div class="spice-dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Checkout Form -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get in Touch</h2>
+                <p class="contact-subtitle">We're Here to Spice Up Your Queries</p>
+            </div>
+
+            <div class="contact-content">
+                <p class="contact-description">
+                    Have questions about our menu, special dietary requirements, or catering services?
+                    Our team at Spice Route Kitchen is always ready to assist you. Reach out through
+                    your preferred channel and we'll respond within 2 hours during business times.
+                </p>
+
+                <div class="contact-actions">
+                    <a href="mailto:orders@spiceroutekitchen.com" class="contact-btn email-btn">
+                        <span class="btn-icon">📧</span>
+                        Email Us
+                    </a>
+
+                    <a href="https://wa.me/1234567890" target="_blank" class="contact-btn whatsapp-btn">
+                        <span class="btn-icon">💬</span>
+                        WhatsApp Chat
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-blur"></div>
+        
+        <div class="footer-meta">
+            <div class="copyright">
+                <p>&copy; 2024 Flames & Flavors Kitchen. All rights reserved.</p>
+            </div>
+            <div class="design-credit">
+                <span class="crafted-with">✨ Crafted with care by </span>
+                <a href="mailto:bhuvnndeepsingh@gmail.com" class="designer-link">
+                    <span class="designer-name">Bhubandeep Singh</span>
+                    <span class="link-icon">🎯</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
